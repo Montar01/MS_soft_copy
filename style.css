@@ -26,6 +26,12 @@
     flex-direction: column;
 }
 
+.text-center {
+    text-align: center
+}
+
+
+
 body {
     margin: auto;
     background-color: white;
@@ -38,6 +44,8 @@ body {
     right: 0;
     z-index: 9999;
 }
+
+/* ------------------------ navbar ---------------------------- */
 
 .navbar-menu{
     width: 100%;
@@ -151,6 +159,8 @@ body {
 
 }
 
+/* ------------------------ about ---------------------------- */
+
 .about {
     background-color: #F8F8F8;
     padding: 50px 0;
@@ -218,7 +228,38 @@ body {
     text-align: end;
 }
 
+/* ------------------------ services ---------------------------- */
 
+.services{
+    background-color: #F8F8F8;
+    padding: 60px 0;
+}
+
+.services-titel strong{
+    font-size: 28px;
+}
+
+.services-titel p{
+    font-size: 20px;
+}
+
+.serveices-item-div {
+    margin-top: 50px;
+}
+
+.services-item {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.services-icon{
+    margin-right: 10px;
+}
 
 /* ---------------- navbar ------------------------ */
 
@@ -274,6 +315,18 @@ body {
     #title-strong {
         font-size: 23px;
         text-align: start;
+    }
+
+    .services-item-row-1 {
+        flex-direction: column;
+    }
+    .services-item-row-2{
+        flex-direction: column;
+    }
+    .services-item {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
     }
     
 }

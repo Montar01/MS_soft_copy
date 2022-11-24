@@ -97,6 +97,8 @@ body {
     background-color: #e5e5e5;
 }
 
+
+
 .ms-body {
     display: flex;
     justify-content: center;
@@ -325,6 +327,7 @@ body {
     }
     .services-item {
         width: 100%;
+        height: auto;
         flex-direction: column;
         text-align: center;
     }
